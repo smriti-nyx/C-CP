@@ -29,6 +29,11 @@ x = 5; //assignment
   cout << "Helllo " << name << "\n";
   cout << "You are from " << city << "\n";
   cout << x << "\n";
+  //const keyword : specifies that a value of a variable is constant 
+ const double pi = 3.14 ; // we might wanna prefix the value of pi 
+  double radius = 19;
+  double circumference = 2* pi * radius ;
+  cout << circumference << "\n";
 
 
 return 0;
