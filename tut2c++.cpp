@@ -1,28 +1,26 @@
 
 #include <iostream>
+#inclue <vector>
 using namespace std;
 
-  //namespace 
-  namespace first {
-    int x = 1 ;
-
-  }
-  namespace second {
-    int x = 2 ;
-
-  }
-
-  using namespace std;
+  
+ 
   int main() {
-     // using namespace second ; (didnt work)
-    int x= 10;
-    string name = "Sera";  
-    // due to. use of namespace std , std prefix isnt req anymore 
+     //typedef - reserved keyword used to create additional name (alias) for another data type
+//          new identifier for a  new data type 
+//           helps with readibility and reduces typos 
 
-    cout << first::x << "\n";
-     cout    << second::x <<"\n";
-    cout << x ;
-     cout << name << "\n";
+// using command 
+
+
+ // typedef std::vector < std::pair< std:: string << int > pairlist_t ;// _t is a default way to name new data type names. 
+typedef std:: string txt_t;
+  typedef int num_t;
+  num_t age = 24;
+  txt_t name = "Sera";
+  cout << age << "\n";
+  cout << "My name is " << name << "\n";
+  
   
   
   
