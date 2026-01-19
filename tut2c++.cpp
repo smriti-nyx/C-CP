@@ -1,19 +1,31 @@
-//namespace 
+
 #include <iostream>
-namespace first {
+using namespace std;
+
+  //namespace 
+  namespace first {
     int x = 1 ;
 
-}
- namespace second {
+  }
+  namespace second {
     int x = 2 ;
 
- }
+  }
 
-using namespace std;
-int main() {
-    int x= 1 ;
+  using namespace std;
+  int main() {
+     // using namespace second ; (didnt work)
+    int x= 10;
+    string name = "Sera";  
+    // due to. use of namespace std , std prefix isnt req anymore 
 
-    cout << firstx << "\n";
-    return 0;
+    cout << first::x << "\n";
+     cout    << second::x <<"\n";
+    cout << x ;
+     cout << name << "\n";
+  
+  
+  
 
+  return 0;
 }
