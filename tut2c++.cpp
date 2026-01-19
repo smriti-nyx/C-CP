@@ -15,6 +15,9 @@ txt_t state = "Ohio";
 cout << " I was born and brought up in " << state<< "\n";
 
   
+//priority  is parenthesis > multiplication or division > addition and subtraction.
+  
+  
   
 
   return 0;
