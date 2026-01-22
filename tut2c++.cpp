@@ -59,6 +59,14 @@ cout <<x<< "\n";
    cout <<y<< "\n";
     cout<< score<< " % \n"; 
 
+     //cout <<(extraction operator)
+  //cin >>(insertion operator )
+std:: string name;
+  cout << "What's your name ?" <<"\n"; 
+  cin >> name;
+   cout <<"Hello "<< name << "\n";
+
+
 
   
   
