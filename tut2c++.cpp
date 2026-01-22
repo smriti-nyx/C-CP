@@ -61,10 +61,15 @@ cout <<x<< "\n";
 
      //cout <<(extraction operator)
   //cin >>(insertion operator )
+  int age ;
 std:: string name;
   cout << "What's your name ?" <<"\n"; 
   cin >> name;
    cout <<"Hello "<< name << "\n";
+    cout <<"What's your age ? :" <<"\n";
+  cin>> age;
+  cout<<"You're " << age << " years old. \n" ;
+  
 
 
 
