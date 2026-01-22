@@ -29,6 +29,7 @@ cout << " I was born and brought up in " << state<< "\n";
   int bats = 4 ;
   double remainder = bats % 2;
   double remainder1 = bats % 3;
+
   
   cout << students <<"\n";
 cout << remainder<<"\n";
@@ -40,6 +41,20 @@ cout << remainder<<"\n";
 //Arithmetic operators 
 
 //Addition
+//switches 
+
+
+//type conversion 
+//type conversion : conversion of one data type into another .
+  //implicit = automatic 
+  // explicit = precede value with new data type.
+   double x = (int) 3.14;
+   char y= 100; //ascii value will be applied 
+ 
+
+cout <<x<< "\n";
+   cout <<y<< "\n";
+
 
   
   
