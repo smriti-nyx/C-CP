@@ -50,10 +50,14 @@ cout << remainder<<"\n";
   // explicit = precede value with new data type.
    double x = (int) 3.14;
    char y= 100; //ascii value will be applied 
+   int questions = 8;
+  int attempted_questions = 10;
+  double score = (double) questions /(double) attempted_questions *100;
  
 
 cout <<x<< "\n";
    cout <<y<< "\n";
+    cout<< score<< " % \n"; 
 
 
   
