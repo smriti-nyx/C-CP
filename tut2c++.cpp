@@ -1,6 +1,7 @@
 
 #include <iostream>
-#inclue <vector>
+#include<math>
+#include <vector>
 using namespace std;
 
   
@@ -73,12 +74,23 @@ std:: string name;
   // useful math related problems 
   double  x = 3;
   double y = 4;
+  double pie = 3.14;
   double z ;
   double t;
+   double b;
+   double r ;
+  
+ t = pow(2,3 );
+  a = sqrt(100);
+  b = abs(-3);
+  r = round(pie);
 z  = std ::max(x,y);
 u = std:: min(x,y);
-t = pow(2,3);
 
+
+ cout << t<<"\n"; 
+   cout << a<<"\n"; 
+     cout << b <<"\n"; 
  cout<< z << "\n";
  cout<< u << "\n";
 
