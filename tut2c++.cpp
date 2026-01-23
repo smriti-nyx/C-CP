@@ -74,12 +74,14 @@ std:: string name;
   double  x = 3;
   double y = 4;
   double z ;
+  double t;
 z  = std ::max(x,y);
 u = std:: min(x,y);
+t = pow(2,3);
 
  cout<< z << "\n";
  cout<< u << "\n";
- 
+
   
 
   
