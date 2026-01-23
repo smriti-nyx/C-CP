@@ -69,6 +69,19 @@ std:: string name;
     cout <<"What's your age ? :" <<"\n";
   cin>> age;
   cout<<"You're " << age << " years old. \n" ;
+
+  // useful math related problems 
+  double  x = 3;
+  double y = 4;
+  double z ;
+z  = std ::max(x,y);
+u = std:: min(x,y);
+
+ cout<< z << "\n";
+ cout<< u << "\n";
+ 
+  
+
   
 
 
