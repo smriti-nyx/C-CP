@@ -1,7 +1,5 @@
 
-#include <iostream>
-#include<math>
-#include <vector>
+#include<bits/stdc++.h>
 using namespace std;
 
   
