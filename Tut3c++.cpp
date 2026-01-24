@@ -4,6 +4,7 @@ int main() {
 
 //switch - alternative to using many else if statemnts 
   // compare one value against matching cases.
+
   int month;
   cout<< "Enter the month: \n"; 
   cin>> month;
@@ -93,6 +94,18 @@ switch(op) {
  
 }
   cout<<"******************\n";
+
+  //ternary operator : replacment to to an if /else statemnet.
+  // condition ? do if condition is true : do if it isn't.
+
+
+  int num;
+  cout<<"Enter a number: ";
+    cin>> num;
+  num % 2 == 0 ? cout<< "The entered number is even" : cout<< "The entered number is odd ";
+
+
+
   
  
   
