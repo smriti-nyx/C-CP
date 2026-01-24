@@ -1,4 +1,4 @@
-#include <bit/stdc++.h>
+#include <bits/stdc++.h>
 using namespace std;
 int main() {
 
@@ -48,6 +48,55 @@ int main() {
    default:
     cout<<"Enter a valid number";
   }
+
+
+  double num1;
+  double num2;
+  char op;
+  double result;
+
+  double num1;
+  double num2;
+  char op;
+  double result;
+ 
+  
+  
+cout<< "*********CALCULATOR*********\n";
+  cout<<"Enter a number :\n";
+    cin>> num1;
+  cout<<"Enter another number:\n";
+  cin>> num2;
+  cout<<"Choose either( +,-,*,/) \n";
+  cin>> op;
+switch(op) {
+  case '+':
+  result = num1+ num2;
+     cout << "Here is your result :"<< result<< "\n";
+  break ;
+  case '-':
+  result = num1 - num2;
+     cout << "Here is your result :"<< result<< "\n";
+  break;
+  case '*':
+
+  result = num1* num2;
+     cout << "Here is your result :"<< result<< "\n";
+  break;
+  case '/' :
+  result = num1/num2;
+     cout << "Here is your result :"<< result<< "\n";
+  break;
+  default :
+  cout<< "Enter a valid operator\n";
+  break;
+ 
+}
+  cout<<"******************\n";
+  
+ 
+  
+  
 
 
   return 0;
