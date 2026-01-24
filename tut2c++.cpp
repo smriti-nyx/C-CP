@@ -79,19 +79,45 @@ std:: string name;
    double b;
    double r ;
   
- t = pow(2,3 );
-  a = sqrt(100);
-  b = abs(-3);
-  r = round(pie);
-z  = std ::max(x,y);
-u = std:: min(x,y);
+// t = pow(2,3 );
+//  a = sqrt(100);
+ // b = abs(-3);
+  //r = round(pie);
+//z  = std ::max(x,y);
+//u = std:: min(x,y);
+//t = ceil(3.14);
 
 
- cout << t<<"\n"; 
-   cout << a<<"\n"; 
-     cout << b <<"\n"; 
- cout<< z << "\n";
- cout<< u << "\n";
+
+ //cout << t<<"\n"; 
+   //cout << a<<"\n"; 
+    // cout << b <<"\n"; 
+ //cout<< z << "\n";
+// cout<< u << "\n";
+
+ double b;
+    double l;
+   double h;
+    cout <<"Enter the breadth of the traingle:" << "\n";
+    cin>> b;
+    cout<< "Enter the length of the triangle;"<< "\n";
+    cin>> l;
+    h = sqrt(pow(l,2) + pow(b,2)); 
+    cout <<h << "\n";
+    cin>> h;
+
+    //if else statements 
+  int age;
+  cout<<"Enter your age: \n";
+  cin>>age;
+  
+  if(age >=18) {
+    cout<< "You're an adult .\n";
+  }
+  else {
+    cout<< "You're not an adult. \n";
+  }
+ 
 
   
 
