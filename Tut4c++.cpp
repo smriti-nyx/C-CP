@@ -33,6 +33,30 @@ int main(){
   cin>> name;
 
   cout<< " hey "<< name <<"\n";
+
+   //empty , clear, append ,length
+  std:: string name ;
+  cout<<"Enter you name : \n";
+  cin>>name;
+  if (name.empty()){
+    cout<<"You did not enter a name ";
+  }
+  else{
+    cout<< "Hey "<< name<< "\n";
+  
+  }
+  name.clear();
+  cout<<"Hello " << name << "\n";
+
+   //array - a data structure that can hold multiple values
+  //values are accessed by index no
+  //kind of like a variable that holds multiple values
+
+  std::string car[] = { "mary" , "larry", "jane", "ellie", "naura"};
+  
+car[1 ]= "neva";
+    cout<<car[0]<< "\n";
+    cout<<car[1]<< "\n";
   
 
 
