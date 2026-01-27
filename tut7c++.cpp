@@ -1,6 +1,8 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+int searcharray( int array[], int size, int element );
+
 
 
 int main(){
@@ -35,6 +37,50 @@ int main(){
   }
 
 
+
+  //get total ?? (pass array to a function)
+
+  //search an array for an element.
+
+  int nums[]= {1,2,3,4,5,6,7,8,9,10};
+  int size = sizeof(nums)/sizeof(nums[0]);
+  int index;
+  int mynum;
+
+  cout<<"Enter an elemnet to search for: "<<"\n";
+  cin>>mynum;
+
+  index = searcharray(nums,size,mynum);
+  
+  
+
+  
+
+ 
+//return - returns a value back to the spot where you called the encompassing fucntion.
+
+  if (index!= -1){
+    cout<< mynum<< " is at index " << index << "\n";
+    
+  }
+  else{
+    cout<<mynum<< " is not in the array \n";
+  }
+
+
+
     return 0;
 
+}
+
+
+
+int searcharray(int array[], int size, int element){
+
+  for(int i =0 ;i<size; i++){
+    if(array[i]== element){
+      return i;
+    }
+  }
+  return -1; // shows that nothing was found 
 }
