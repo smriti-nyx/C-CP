@@ -73,6 +73,19 @@ int main(){
   //bubble sort - if the number on the right is smaller than the num on left , store the num in left in a temporary box and move the right number to the left nums position n so on. In this way and an ascending order series is received.
 
 
+
+
+
+
+
+   int array[] = { 2,4,3,7,10,8,5,9,6};
+  int size = sizeof(array)/sizeof(array[0]);
+
+  for(int num : array){
+    cout<< num<< "   \n";
+    
+  }
+
     return 0;
 
 }
