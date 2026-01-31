@@ -69,6 +69,7 @@ int main(){
 
 
 
+  
    //sorting of an array --
   //bubble sort - if the number on the right is smaller than the num on left , store the num in left in a temporary box and move the right number to the left nums position n so on. In this way and an ascending order series is received.
 
