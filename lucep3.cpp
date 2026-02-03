@@ -45,6 +45,13 @@ long int z = x*y;
 cout<<z; // long int lies in the range and hence the predicted vlalue is printed .
 
 
+int  e = 100000;
+int f = 100000;
+long int g = e*1LL*f; //gives out the desired output 
+cout<<g<<"\n";
+
+
+
 
     return 0;
 }
