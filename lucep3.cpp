@@ -30,6 +30,13 @@ int a = 100000;
 int b = 100000;
 int c = a*b;
 cout<<c<<"\n"; //value overflowed since c output exceeds the range of int values 
+int mx = INT_MAX; //in-defined variable ; prints the max value of an integer.
+cout<<mx;
+
+//intMIN<int<intMAX
+//     <<+1<<
+//     >>-1>>
+
 
 
 long int x = 100000;
