@@ -33,11 +33,14 @@ cout<< a-b; //ASCII values will be printed
 
 //Taking inputs and outputs
 
+
+
 int x ;
 double y;
 char z ;
 cin>>x>>y>>z ;
-cout<<x<<" "<< y<<" "<<z<<"  \n";
+cout<<x<<" "<< y<<" "<<z<<"  "<<(int) z ;
+
 
 
 
