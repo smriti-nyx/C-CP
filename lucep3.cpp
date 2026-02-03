@@ -15,7 +15,7 @@ cout<<7/2.0<<"'\n"; // 3.5 will be printed since double has higher priority than
 
 
 double a = 3/2;
-cout<<a;
+cout<<a"\n";
 //ans will come out as 1 and not 1.5 since 3/2 gives 1 as answer and then it got stored in the double , so 1.5 wa snever stored in double and hence the answer.
 
 
@@ -42,13 +42,22 @@ cout<<mx;
 long int x = 100000;
 long int y = 100000;
 long int z = x*y;
-cout<<z; // long int lies in the range and hence the predicted vlalue is printed .
+cout<<z<<"\n"; // long int lies in the range and hence the predicted vlalue is printed .
 
 
 int  e = 100000;
 int f = 100000;
 long int g = e*1LL*f; //gives out the desired output 
 cout<<g<<"\n";
+
+
+ double m =100000;
+ double n = 100000;
+ double o = m*n;
+ 
+ cout<<fixed<< setprecision(0)<<o<<"\n";  // 1e means 10^
+ //fixed gives the fixed value by displaying  the zeroes and getting rid of the e.
+ //set precision removes the zeroes after the decimal.
 
 
 
