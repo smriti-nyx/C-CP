@@ -60,6 +60,15 @@ cout<<g<<"\n";
  //set precision removes the zeroes after the decimal.
 
 
+ //double has a big storage but it comes at the cost of precision of data 
+//printing area of reactangle 
+int l , b ;
+cin>>l>>b;
+int area = l*b;
+cout << area<< " \n";
+
+
+
 
 
     return 0;
