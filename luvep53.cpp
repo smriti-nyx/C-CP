@@ -7,8 +7,9 @@ using namespace std;
 
 	// num1 = a , num2  = b and LCM = a * b /gcd 
 	int gcd(int a  ,int b ){
+		 if ( b  == 0 )  return a ;
     if ( a%b == 0 )  return b ;
-	     if ( b  == 0 )  return a ;
+	    
 	    return gcd (  b ,  a% b );
 	       
 	    }
